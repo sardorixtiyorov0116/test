@@ -1,6 +1,6 @@
 import { describe, expect, test, vi } from "vitest";
 import { mount } from "@vue/test-utils";
-import upload from "./upload";
+import upload from "../upload";
 
 const mocks = vi.hoisted(() => ({
   get: vi.fn(),

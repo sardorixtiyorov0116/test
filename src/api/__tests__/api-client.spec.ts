@@ -1,6 +1,6 @@
 import { describe, expect, test, vi } from "vitest";
 import axios from "axios";
-import axiosClient from "./apiClient";
+import axiosClient from "../apiClient";
 
 describe("Axios Client", () => {
   test("should set baseURL correctly", () => {
