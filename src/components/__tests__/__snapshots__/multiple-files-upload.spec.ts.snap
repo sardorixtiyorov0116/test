@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MultipleUpload > check to snapshot SingleUpload 1`] = `
+"<p class="px-[20px] mt-[80px] font-bold text-[15px]"> ⚠️ Please ensure each file is less than 0.000003814697265625MB <br>⚠️ Please choose a maximum of 4 files. </p>
+<div class="px-[50px] pt-[20px] flex w-full flex-wrap gap-10 items-end"><label for="inputField1" class="w-[230px] h-[200px] flex flex-col gap-3 justify-center items-center bg-slate-200 rounded-md shadow-lg cursor-pointer hover:bg-slate-300" title=""><input id="inputField1" type="file" multiple="" class="hidden"><i class="fa-solid fa-cloud-arrow-up text-[25px]"></i>
+    <h1>Choose File</h1>
+  </label><button class="px-5 py-3 rounded-full bg-blue-400 text-white flex gap-3 items-center justify-center">
+    <!--v-if-->
+    <h1>Upload</h1>
+  </button></div>"
+`;
